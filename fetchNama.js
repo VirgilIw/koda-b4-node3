@@ -12,6 +12,6 @@ export async function ambilNama() {
   let gil = namaKu[6].name;
   let koda = "koda batch 4";
 
-  gil = gil + ", " + koda;
-  console.log(gil);
+  let gabungan = gil + ", " + koda;
+  console.log(gabungan);
 }
